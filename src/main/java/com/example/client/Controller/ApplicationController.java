@@ -19,7 +19,7 @@ import com.example.client.service.PostServiceImpl;
 
 import lombok.extern.slf4j.Slf4j;
 @Slf4j
-@CrossOrigin
+@CrossOrigin(origins = "*")
 @RestController
 public class ApplicationController {
 
