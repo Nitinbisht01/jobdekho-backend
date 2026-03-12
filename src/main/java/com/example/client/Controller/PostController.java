@@ -16,7 +16,7 @@ import com.example.client.service.PostService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-@CrossOrigin
+@CrossOrigin(origins = "*")
 @RestController
 @Slf4j
 @RequiredArgsConstructor
